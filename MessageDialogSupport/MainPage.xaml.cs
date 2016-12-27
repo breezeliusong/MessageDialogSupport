@@ -57,5 +57,10 @@ namespace MessageDialogSupport
         {
             Debug.WriteLine("click");
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            canvas.Visibility = Visibility.Visible;
+        }
     }
 }
